@@ -7,13 +7,17 @@ about:
   image-shape: round
   image-width: 20em
   links:
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/https://www.linkedin.com/in/seanmgardner/
-    - text: Twitter
+    - icon: twitter
+      text: Twitter
       href: https://twitter.com/SeanGardner22
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/Seanmgard
-    - text: Email
+    - icon: envelope
+      text: Email
       href: mailto:seanmgard@gmail.com
 ---
 
