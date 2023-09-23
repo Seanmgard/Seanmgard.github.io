@@ -9,13 +9,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - Visualizations.qmd
+      - Projects.qmd
       - posts.qmd
+    
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - Lux
+      - custom.scss
     toc: true
     page-layout: full
 
