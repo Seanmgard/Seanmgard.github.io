@@ -1,6 +1,6 @@
 ---
 title: "Sean Gardner"
-image: C:\Users\seanm\OneDrive\Documents\R Projects\Blog\Images\IMG_3489.png
+image: Images\IMG_3489.png
 toc: false
 about:
   template: trestles
