@@ -59,6 +59,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-E5T5MLDTMN"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E5T5MLDTMN', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -135,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Each year, ESPN ranks the top 300 high school football recruits in the country. Athletes across the nation are evaluated on a variety of metrics to determine how they compare vs.&nbsp;their peers by state, position, and across the nation. These lists are usually a great indicator of how impactful players are for their varsity team. For example, Malachi Nelson, the #1 ranked player in the class of 2023, passed for 2,898 yards and 35 touchdowns this past season. Next year he’ll be attending the University of Southern California (USC), where fans and analysts will be evaluating whether he’s the next future NFL star. We’ve seen plenty of examples of that in recent history. Just five years ago, Justin Fields and Trevor Lawrence, now rising QBs in the NFL, ranked as the number 1 and number 2 players in the class of 2018.</p>
+<p>Each year, ESPN ranks the top 300 high school football recruits in the country. Players are evaluated on a variety of metrics to determine how they compare vs.&nbsp;their peers by state, position, and across the nation. These lists are usually a great indicator of how impactful players are for their varsity team. For example, Malachi Nelson, the #1 ranked player in the class of 2023, passed for 2,898 yards and 35 touchdowns this past season. Next year he’ll be attending the University of Southern California (USC), where fans and analysts will be evaluating whether he’s the next future NFL star. We’ve seen plenty of examples of that in recent history. Just five years ago, Justin Fields and Trevor Lawrence, now rising QBs in the NFL, ranked as the number 1 and number 2 players in the class of 2018.</p>
 <p>As I mentioned, the top 300 list is meant to reflect how talented players are at a given point in time. But how well does it predict future success? One would think recruiting grades correlate well with eventual draft likelihood, but is that actually the case? Furthermore, do those trends hold across all positions? In this analysis, I set out to start answering those questions.</p>
 <p>First, we need to gather all the necessary data. I initially built a web scraper in Python to pull data for the top high school football recruits between 2006 and 2023 from ESPN.com. I used the pandas library to read the HTML tables on each webpage, clean the data, and extract it to a separate excel file. I then ran some simple excel functions to combine that dataset with the nflverse-data repository on Github. From that, we were left with a list that contains 4,350 players. I then used ggplot2 in R to run the analysis below.</p>
 <section id="ranking-successful-players" class="level3">
@@ -145,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The first takeaway here may be that truly top talents are easy to evaluate from an early age, but measuring performance beyond that point becomes more difficult. The dynamic is even more interesting if we break things down by position.</p>
 <p><img src="images/image-582781256.png" class="img-fluid"></p>
 <p>A few interesting themes emerge here. First, skill positions like WR tend to comprise a meaningful selection of the top ESPN recruits each year. This makes sense if we think about the depth chart of any given football team. Unlike many other positions (ex: FB), there will often be 2-4 receivers on the field at a time, which makes the position itself that much more valuable.</p>
-<p>That said, we still see some interesting dynamics within positions. Prior to this analysis, my hypothesis was that certain positions may have a higher likelihood of being drafted after ranking highly in high school than others. Instead, the themes across each of these are relatively consistent. I suppose this makes sense too. Think for a moment about five of the top QBs in the league at this moment (Patrick Mahomes, Jalen Hurts, Joe Burrow, Josh Allen, and Justin Herbert). Of those players, only Joe Burrow was ranked among the Top 300 high school recruits coming into college, and he ranked 298th. It’s<strong>hard</strong>to predict these things.</p>
+<p>That said, we still see some interesting dynamics within positions. Prior to this analysis, my hypothesis was that certain positions may have a higher likelihood of being drafted after ranking highly in high school than others. Instead, the themes across each of these are relatively consistent. I suppose this makes sense too. Think for a moment about five of the top QBs in the league at this moment (Patrick Mahomes, Jalen Hurts, Joe Burrow, Josh Allen, and Justin Herbert). Of those players, only Joe Burrow was ranked among the Top 300 high school recruits coming into college, and he ranked 298th. It’s <strong>hard</strong> to predict these things.</p>
 </section>
 <section id="talent-evaluation-by-school" class="level3">
 <h3 class="anchored" data-anchor-id="talent-evaluation-by-school">Talent Evaluation by School</h3>
