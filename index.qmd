@@ -9,7 +9,7 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/https://www.linkedin.com/in/seanmgardner/
+      href: https://www.linkedin.com/in/seanmgardner/
     - icon: twitter
       text: Twitter
       href: https://twitter.com/SeanGardner22
