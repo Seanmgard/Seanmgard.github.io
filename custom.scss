@@ -13,8 +13,8 @@ $black:    #000 !default;
 
 /*-- scss:rules --*/
 .navbar {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   font-size: 1.0rem;
   color: #fff;
   background-color: #343a40;
@@ -28,7 +28,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .navbar-dark .navbar-brand {
     color: #fff;
 }
-
+ 
 .navbar-dark .navbar-nav .nav-link.active {
     color: #fff;
 }
@@ -45,3 +45,8 @@ body {
     line-height: var(--bs-body-line-height);
     text-align: var(--bs-body-text-align);
 }
+
+.centered-text {
+  padding-top: 50px;
+}
+
