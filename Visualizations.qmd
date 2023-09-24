@@ -3,15 +3,11 @@
 ---
 
 ::: grid
-:::{.g-col-6}
-
+::: g-col-6
 ![](images/image-1676217400.png){.gray-frame}
-
 :::
 
-:::{.g-col-6}
-
+::: g-col-6
 ![](images/image-624228713.png){.gray-frame}
-
 :::
 :::
