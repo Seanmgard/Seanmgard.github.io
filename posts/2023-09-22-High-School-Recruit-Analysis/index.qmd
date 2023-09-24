@@ -38,7 +38,7 @@ From the table above, we can see that the data doesn't necessarily show any clea
 
 This dataset may confirm some priors about high school recruiting and perhaps dispel some notions about talent evaluation in football. Here are some takeaways:
 
-1.) 1.) There is a correlation between a player's high school ranking and their likelihood of being drafted. That said, the correlation decreases for players ranked outside the top 50.
+1.) There is a correlation between a player's high school ranking and their likelihood of being drafted. That said, the correlation decreases for players ranked outside the top 50.
 
 2.) There isn't a clear theme between a player's position and their likelihood of being drafted. There are certainly more WRs drafted than say, ILBs, but there are also more WRs among the top ranked players to begin with.
 
