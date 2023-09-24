@@ -1,6 +1,6 @@
 ---
 title: "Sean Gardner"
-image: Images\IMG_3489.png
+image: Images\Profile.png
 toc: false
 about:
   template: trestles
