@@ -5,6 +5,7 @@ project:
 website:
   title: "Sean Gardner"
   google-analytics: "G-E5T5MLDTMN"
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd

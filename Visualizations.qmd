@@ -1,13 +1,24 @@
 ---
 # title: "Visualizations"
+filters:
+   - lightbox
+lightbox: auto
 ---
 
 ::: grid
 ::: g-col-6
-![](Images/Unions.png){.gray-frame}
+![](Images/Unions.png){.gray-frame .lightbox}
 :::
 
 ::: g-col-6
-![](Images/Natural_Resources.png){.gray-frame}
+![](Images/Natural_Resources.png){.gray-frame .lightbox}
+:::
+
+::: g-col-6
+![](Images/Rplot04.png){.gray-frame .lightbox}
+:::
+
+::: g-col-6
+![](Images/Roy_Kent_Final_Plot.png){.gray-frame .lightbox}
 :::
 :::
