@@ -15,15 +15,18 @@ lightbox: auto
 :::
 
 ::: g-col-6
+![](Images/Beatles_Plot.png){.gray-frame .lightbox}
+:::
+
+::: g-col-6
 ![](Images/Rplot04.png){.gray-frame .lightbox}
 :::
 
 ::: g-col-6
-![](Images/G7 Gini Coefficient.png){.gray-frame .lightbox}
+![](Images/G7%20Gini%20Coefficient.png){.gray-frame .lightbox}
 :::
 
 ::: g-col-6
 ![](Images/Roy_Kent_Final_Plot.png){.gray-frame .lightbox}
-
 :::
 :::
