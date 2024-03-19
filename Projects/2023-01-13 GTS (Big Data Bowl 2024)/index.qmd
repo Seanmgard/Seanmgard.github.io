@@ -1,5 +1,7 @@
 ---
 title: "NFL Big Data Bowl 2024: Gridiron Tackle Superiority (GTS)"
+date: "2024-01-08"
+thumbnail: images/Arctan_Visual.png
 ---
 
 ### Introduction
