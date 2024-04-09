@@ -1,6 +1,7 @@
 ---
 title: "Investigating The Beatles with Machine Learning"
 date: "2024-04-08"
+draft: false
 twitter:
   card: summary_large_image
   site: "@SeanGardner22"
