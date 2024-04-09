@@ -1,8 +1,9 @@
 ---
 title: "A Review of Employment Data (March 2023)"
+date: "2023-03-23"
 ---
 
-On March 9th, the Bureau of Labor Statistics (BLS) released its Job Openings and Labor Turnover report (also known as \"JOLTS\") for January 2023. The report noted a slight decline in the number of job openings for the month, largely driven by construction, accommodation and food services, and finance and insurance.
+On March 9th, the Bureau of Labor Statistics (BLS) released its Job Openings and Labor Turnover report (also known as "JOLTS") for January 2023. The report noted a slight decline in the number of job openings for the month, largely driven by construction, accommodation and food services, and finance and insurance.
 
 The following day, we received the Employment Situation, which showed that non-farm payroll rose by 311,000 for the month of February, with the unemployment rate (3.6%) and unemployed persons (5.9 million) rising as more people entered the labor force. This comes alongside a plethora of other reports, along with commentary from market analysts, who are trying to project where the employment situation might go.
 
@@ -42,8 +43,7 @@ As mentioned at the beginning, the release of the Employment Situation for Febru
 
 While it's difficult to draw strong conclusions about this report, there are still some interesting themes in the data. First, the unemployment rate has differed among different ages and levels of educational attainment. Since February 2022, the unemployment rate for those with less than a high school diploma, a group that admittedly only makes up \~6% of the total labor force, has significantly increased from 4.5% in January to 5.8% in February. Meanwhile, the unemployment rate has stayed relatively stagnant for high school graduates without a degree and those with a bachelor's degree or higher, though it did increase from 2.9 to 3.2% for those with some college or associate degree.
 
-![](/posts/2023-09-23-Employment-Situation/images/image-1120497484.png)
-Differences emerge if we look specifically at age as well. Since February of 2022, unemployment has remained steady for most age cohorts except for those aged 35 to 44 years old, which has seen a decrease in the unemployment rate from 3.3% to 2.6%, and 55 years and over, which has seen a decline in the unemployment rate from 2.9% to 2.5%. We've even seen some interesting movements since just last month.
+![](/posts/2023-09-23-Employment-Situation/images/image-1120497484.png) Differences emerge if we look specifically at age as well. Since February of 2022, unemployment has remained steady for most age cohorts except for those aged 35 to 44 years old, which has seen a decrease in the unemployment rate from 3.3% to 2.6%, and 55 years and over, which has seen a decline in the unemployment rate from 2.9% to 2.5%. We've even seen some interesting movements since just last month.
 
 ![](/posts/2023-09-23-Employment-Situation/images/image-970073186.png)
 

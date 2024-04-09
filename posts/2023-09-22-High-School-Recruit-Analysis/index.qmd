@@ -1,5 +1,6 @@
 ---
 title: "Analyzing the High School Recruit to NFL Draft Pick Pipeline"
+date: "2023-09-22"
 ---
 
 Each year, ESPN ranks the top 300 high school football recruits in the country. Players are evaluated on a variety of metrics to determine how they compare vs. their peers by state, position, and across the nation. These lists are usually a great indicator of how impactful players are for their varsity team. For example, Malachi Nelson, the #1 ranked player in the class of 2023, passed for 2,898 yards and 35 touchdowns this past season. Next year he'll be attending the University of Southern California (USC), where fans and analysts will be evaluating whether he's the next future NFL star. We've seen plenty of examples of that in recent history. Just five years ago, Justin Fields and Trevor Lawrence, now rising QBs in the NFL, ranked as the number 1 and number 2 players in the class of 2018.

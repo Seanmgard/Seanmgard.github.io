@@ -1,5 +1,6 @@
 ---
 title: "Investigating The Beatles with Machine Learning"
+date: "2024-04-08"
 ---
 
 During my sophomore year in college, I enrolled in a class titled 'Music of the Beatles', which was taught by the legendary Glenn Gass. Glenn spent over 40 years teaching at Indiana University and famously developed the first history of rock and roll course at a major university. The course was taught late in the evening on Tuesdays and Thursdays and took place in an old lecture hall at the center of campus, where Glenn would spend almost two hours walking us through the history of the Beatles. We listened to every album from that era, absorbing the stories and inspirations behind every song, and appreciating their unique brilliance.
@@ -10,7 +11,7 @@ It seems counterintuitive to use something as emotionless as machine learning to
 
 One of the audio attributes measured by Spotify is "Energy", which is meant to represent the overall intensity and activity of a song. Their Developer Documentation says, "Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset range, and general entropy". Of course, this does not consider the song's origin, specific lyrics, or other attributes that could contribute to the energy one feels while listening to a song. That said, it does contain some key attributes that highly correlate to perceive energy from listeners. The chart below breaks down the energy characteristics of every album in their discography (minus Magical Mystery Tour and Yellow Submarine). It contains some interesting findings.
 
-![](/posts/2024-04-08-Investigating-Beatles/images/Beatles_Plot.png)
+![](/posts/2024-04-08-Investigating-Beatles/images/Beatles_Plot.png){fig-align="center" width="677"}
 
 On average, the Beatles displayed far more energy earlier in their career. In fact, their first five studio releases represent the five most energetic albums of their entire discography -- Though their second album, With The Beatles, is meaningfully more energetic than numbers two through five. This is likely not surprising when you listen to tracks like I Wanna Be Your Man, Little Child, and Money (That's What I Want), all of which fall in the top 10 of the entire Beatles catalog of 200+ songs.
 
@@ -20,40 +21,47 @@ Though later albums display less energy on average, that doesn't necessarily mea
 
 The range of the Beatles is evident from the first chart. The plot below highlights that range in more detail. The first table ranks the albums by overall energy, while the second and third tables show the highest and lowest ranking songs by energy on each album.
 
-![](/posts/2024-04-08-Investigating-Beatles/images/Beatles_Top_Songs_Chart.png)
+![](/posts/2024-04-08-Investigating-Beatles/images/Beatles_Top_Songs_Chart.png){fig-align="center"}
 
 These dynamics also break down in interesting ways across each member of the band. Lennon and McCarthy composed over 80% of the Beatles catalog, either in an individual capacity or through collaboration. Paul arguably displays more energetic *range* throughout his contributions, but overall, ranked the lowest out of all four Beatles. Combined Lennon/McCarthy tracks displayed the highest energy by a meaningful margin, led by songs like 'Little Child' and 'I Wanna Be Your Man'. George's contributions tended to congregate more towards the middle in terms of 'energy', as did Ringo, though his his role as a 'composer' was minimal -- But I did love 'Octopus's Garden'.
 
-![](/posts/2024-04-08-Investigating-Beatles/images/Songwriter_Chart_1.png)
+![](/posts/2024-04-08-Investigating-Beatles/images/Songwriter_Chart_1.png){fig-align="center" width="688"}
 
 ### Are Any of These Measures Correlated?
 
-Spotify doesn't just track Energy -- Their team calculates various audio features for tens of millions of different songs. These audio features include a wide range of metrics that can be used to measure a song's structure and musical content. A breakdown of those features can be found below.
+Spotify doesn't just track Energy -- Their team calculates various audio features for tens of millions of different songs. These audio features include a wide range of metrics that can be used to measure a song's structure and musical content.
 
-| **Energy**
-| Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
-| 
-| **Danceability**
-| Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
-| 
-| **Instrumentalness**
-| Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly "vocal". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
-| 
-| **Loudness**
-| The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 db.
-| 
-| **Speechiness**
-| Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.
-| 
-| **Tempo**
-| The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
-| 
-| **Valence**
-| A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+> **Energy**
+>
+> Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
+>
+> **Danceability**
+>
+> Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
+>
+> **Instrumentalness**
+>
+> Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly "vocal". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
+>
+> **Loudness**
+>
+> The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 db.
+>
+> **Speechiness**
+>
+> Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.
+>
+> **Tempo**
+>
+> The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
+>
+> **Valence**
+>
+> A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
 
 These features contain unique information about songs, but also share common characteristics in certain cases. The chart below shows how some of these measures correlate with energy for songs in the Beatles discography.
 
-![](/posts/2024-04-08-Investigating-Beatles/images/Correlation_Chart_1.png)
+![](/posts/2024-04-08-Investigating-Beatles/images/Correlation_Chart_1.png){fig-align="center"}
 
 In general, most audio features show little correlation with energy for Beatles songs. As the Spotify description notes, energetic tracks tend to be associated with things like perceived loudness or intensity, which perhaps explains why 'loudness' and 'valence' were the two metrics most correlated with energy. With valence, we observe an R-Squared of 0.25, while loudness is 0.50. That said, the observations across all measures are clearly sporadic.
 
