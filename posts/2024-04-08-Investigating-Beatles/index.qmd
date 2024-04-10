@@ -8,7 +8,7 @@ twitter:
   creator: "@SeanGardner22"
   title: "Investigating The Beatles"
   description: "An in-depth look into The Beatles' music."
-  image: "https://github.com/Seanmgard/Seanmgard.github.io/blob/main/posts/2024-04-08-Investigating-Beatles/images/Beatles_Plot.png"
+  image: "https://github.com/Seanmgard/Seanmgard.github.io/blob/bff589dc0abb32a24dad37daaf338f7dcfab962a/posts/2024-04-08-Investigating-Beatles/images/Beatles_Plot.png"
 ---
 
 During my sophomore year in college, I enrolled in a class titled 'Music of the Beatles', which was taught by the legendary Glenn Gass. Glenn spent over 40 years teaching at Indiana University and famously developed the first history of rock and roll course at a major university. The course was taught late in the evening on Tuesdays and Thursdays and took place in an old lecture hall at the center of campus, where Glenn would spend almost two hours walking us through the history of the Beatles. We listened to every album from that era, absorbing the stories and inspirations behind every song, and appreciating their unique brilliance.
