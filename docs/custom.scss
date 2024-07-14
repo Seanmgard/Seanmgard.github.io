@@ -43,9 +43,8 @@ body {
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: 1.5;
-    color: #222;
-    max-width: 1050px;
-    margin: auto;
+    text-align: var(--bs-body-text-align);
+    color: #333;
 }
 
 .centered-text {
@@ -56,4 +55,20 @@ body {
   border: 2px solid #ced4da;
   padding: 10px;
   border-radius: 10px;
+}
+
+/* Variables */
+$max-content-width: 100px; // Adjust this value as needed
+
+.main-content {
+    max-width: $max-content-width;
+    margin: 0 auto;
+    padding: 0 15px; // Optional padding for better spacing
+}
+
+/* Quarto content styles */
+.quarto-content {
+    max-width: $max-content-width;
+    margin: 0 auto;
+    padding: 0 15px; // Optional padding for better spacing
 }
