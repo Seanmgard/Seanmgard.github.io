@@ -39,12 +39,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
     line-height: 1.5;
-    color: #222;
-    max-width: 1050px;
+    color: #373a3c;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -56,4 +56,9 @@ body {
   border: 2px solid #ced4da;
   padding: 10px;
   border-radius: 10px;
+}
+
+.navbar-dark, .navbar-light, .navbar {
+  background-color: #212529;
+  font-size: 20px;
 }

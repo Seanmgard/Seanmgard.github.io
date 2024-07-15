@@ -21,7 +21,7 @@ website:
 format:
   html:
     theme:
-      - Lux
+      - cosmo
       - custom.scss
     toc: true
     page-layout: full
